@@ -17,8 +17,8 @@ body {
     position: fixed;
     display: block;
     height: auto;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 10px;
+    padding: 0px;
+    margin: 0px;
     flex-direction: column;
 
 }
@@ -29,7 +29,6 @@ body {
 .perfil h1 {
     font-size: 20px;
     text-align: center;
-    margin: 20px
 }
 .perfil h5 {
     margin: 10px;
@@ -41,7 +40,8 @@ body {
     width: 70%;
     border-radius: 4px;
     display: block;
-    margin: 10px auto 20px auto;
+    margin: 10px auto 10px auto;
+    align-items: center;
 
 }
 
@@ -110,4 +110,36 @@ body {
     box-shadow: 0px 0px 6px #000000bb;
     background-color: var(--primary-light);
     
+}
+@media screen and (max-width: 736px){
+    body {
+        width: 100%;
+    }
+    #container {
+        width: 30%;
+    }
+    #experiencias {
+        width: 50%;
+        margin: 0px 0px 0px 520px;
+    }
+    #formacao-complementar {
+        width: 90%;
+        margin: 0px 0px 0px 270px;
+    }
+
+}
+@media screen and (max-width: 300px){
+    body {
+        width: 100%;
+    }
+    #container {
+        width: 30%;
+    }
+    #experiencias {
+        width: 8%;
+        margin: 0px 0px 0px 700px;
+    }
+    #formacao-complementar {
+        width: 100%;
+    }
 }
