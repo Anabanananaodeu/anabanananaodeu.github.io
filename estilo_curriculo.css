@@ -1,0 +1,113 @@
+:root {
+    --primary: #f5f5f5;
+    --primary-dark:#c2c2c2;
+    --primary-light: #ffffff;
+}
+
+html {
+    font-family: 'Noto Sans Mono', monospace;
+}
+body {
+    background-color: var(--primary);
+}
+#container {
+    width: 30%;
+    background-color: var(--primary-dark);
+    box-shadow: 0px 0px 8px #000000bb;
+    position: fixed;
+    display: block;
+    height: auto;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 10px;
+    flex-direction: column;
+
+}
+
+.perfil {
+    font-size: 12px;
+}
+.perfil h1 {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px
+}
+.perfil h5 {
+    margin: 10px;
+    text-align: center;
+    font-size: 12px;
+
+}
+.perfil img {
+    width: 70%;
+    border-radius: 4px;
+    display: block;
+    margin: 10px auto 20px auto;
+
+}
+
+#formacao h3{
+    margin: 20px 10px 10px 10px;
+    font-size: 16px;
+    text-align: center;
+}
+#formacao p {
+    font-size: 12px;
+    text-align: center;
+}
+
+.titulo p {
+    flex-direction: column-reverse;
+    justify-content:space-evenly;
+}
+#experiencias {
+    width: 65%;
+    margin: 5px 10px 10px 430px;
+    padding: 10px;
+    height: auto;
+    display:inline-flex;
+    flex-direction: row-reverse;
+}
+#experiencias-1 {
+    text-align: center;
+    margin: 30px 10px 5px 430px;
+}
+#experiencias-1 h1 {
+    font-size: 18px;
+}
+#experiencias p {
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 12px;
+    margin: 5px;
+    display: block;
+    align-items: center;
+    box-shadow: 0px 0px 6px #000000bb;
+    background-color: var(--primary-light);
+    width: 200px;
+}
+#formacao-1 {
+    text-align: center;
+    margin: 10px 10px 5px 430px;
+}
+#formacao-1 h1 {
+    font-size: 18px;
+}
+#formacao-complementar {
+    width: 65%;
+    margin: 5px 10px 10px 430px;
+    padding: 10px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+#formacao-complementar p {
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 12px;
+    margin: 5px;
+    display: block;
+    align-items: center;
+    box-shadow: 0px 0px 6px #000000bb;
+    background-color: var(--primary-light);
+    
+}
